@@ -1,0 +1,18 @@
+{
+  "id": "evantaylor.spell-research",
+  "displayName": "Spell Research",
+  "version": "0.1.0",
+  "entry": "spell_research.wasm",
+  "apiVersion": "1.4",
+  "minHostVersion": "0.1.0",
+  "permissionsVersion": 1,
+  "permissions": [
+    {
+      "name": "chat",
+      "note": "Reports level VIII research progress in chat when you say /spell-research."
+    }
+  ],
+  "limits": {
+    "memoryMiB": 16
+  }
+}
